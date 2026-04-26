@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Tab Refresher",
+  "description": "Refresh the current tab at a set interval",
+  "version": "1.0",
+  "permissions": ["tabs", "alarms"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}
